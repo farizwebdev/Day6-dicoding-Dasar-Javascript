@@ -8,4 +8,5 @@ function addEmployee(name, email, JoinYear) {
     const employees = [name, email, JoinYear];
 }
 
-console.log(addEmployee('Fariz'));
+// Menampilkan Hasil 
+console.log(addEmployee('Fariz', 'fariz@gmail.com', 2025));
