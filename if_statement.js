@@ -18,8 +18,8 @@ if (nilai_tbo >= 89){
     console.log("Yeayy, Nilai A");
 } else if (nilai_tbo >= 79){
     console.log("Waduh, Nilai B");
-} else {
-    console.log("Sayang kali kau dapet nilai C");
+} else if (nilai_tbo >= 69){
+    console.log("Yahh, Nilai C");
 };
 
 // Ternary Operator
