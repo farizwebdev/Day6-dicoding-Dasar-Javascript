@@ -7,3 +7,8 @@ for (pahala = 0; pahala <= 10; pahala++) {
 for (angka = 0; angka <= 20; angka += 2) {
     console.log (`Angka Genap: ${angka}`);
 }
+
+// Tentang Menghitung Minus
+for (mines = 29; mines >= 1; mines--) {
+    console.log(`Angka Minus: ${mines}`);
+}
