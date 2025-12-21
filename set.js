@@ -4,6 +4,8 @@ console.log(set);
 set.add(10);
 console.log(set);
 
+
+// For pake of hehe
 for (const nilaiku of set){
     console.log(nilaiku);
 }
