@@ -1,6 +1,7 @@
 // Switch Case
 const jamber = new Date().getHours();
 
+// Ngecek yak inii
 switch (jamber) {
     case 6:
         console.log("KULIAHHH INGETT LURR");
