@@ -9,5 +9,5 @@ for (const nilaiku of set){
 }
 
 
-
+// For each Loop
 set.forEach((nilai) => console.log(nilai));
