@@ -61,8 +61,12 @@ class Eagle extends Animal {
 const myRabbit = new Rabbit('Labi', 2);
 const myEagle = new Eagle('Elo', 4);
 
+
+// Nampilin Hasil Apakah Instance
 console.log(myRabbit instanceof Rabbit);
 console.log(myEagle instanceof Eagle);
+
+
 console.log(myRabbit.eat());
 console.log(myEagle.fly());
 console.log(myRabbit);
