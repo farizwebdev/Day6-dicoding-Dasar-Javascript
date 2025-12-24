@@ -57,6 +57,7 @@ class Eagle extends Animal {
     }
 }
 
+// Buat Objek dari class Rabbit dan Eagle
 const myRabbit = new Rabbit('Labi', 2);
 const myEagle = new Eagle('Elo', 4);
 
