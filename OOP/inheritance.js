@@ -1,15 +1,12 @@
 class Manusia {
-    constructor(nama, umur) {
+    constructor(nama, umur, hobi) {
         this.nama = nama;
         this.umur = umur;
+        this.hobi = hobi;
     }
 }
 
 class Mahasiswa extends Manusia {
-    constructor (nama, umur, hobi) {
-        super(nama, umur);
-        this.hobi = hobi;
-    }
 
     Keseharian() {
         console.log(`Keseharianku adalah belajar ${this.hobi}`);
