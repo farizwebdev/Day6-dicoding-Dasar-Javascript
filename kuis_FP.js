@@ -16,6 +16,7 @@ function getProductsByCategory(products, category) {
   return products.filter(product => product.category === category);
 }
 
+// Fungsi tambahan untuk kuis
 function findProductById(products, id) {
   /**
    * TODO:
