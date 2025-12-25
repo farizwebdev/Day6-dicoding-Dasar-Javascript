@@ -1,3 +1,4 @@
+// Buat Sample Data
 const sampleProducts = [
   { id: 1, name: 'Laptop', category: 'Electronics', price: 1000 },
   { id: 2, name: 'Phone', category: 'Electronics', price: 500 },
