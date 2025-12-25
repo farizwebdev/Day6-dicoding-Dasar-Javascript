@@ -7,6 +7,7 @@ const sampleProducts = [
   { id: 5, name: 'Watch', category: 'Accessories', price: 200 },
 ];
 
+// Fungsi untuk mengelola produk
 function getProductsByCategory(products, category) {
   /**
    * TODO:
