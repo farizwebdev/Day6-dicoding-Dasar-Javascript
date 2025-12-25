@@ -25,6 +25,8 @@ function findProductById(products, id) {
   return products.find(product => product.id === id);
 }
 
+
+// Fungsi Kalkulasi Harga Total
 function calculateTotalPrice(products) {
   /**
    * TODO:
