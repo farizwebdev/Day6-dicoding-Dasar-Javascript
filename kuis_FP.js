@@ -50,4 +50,4 @@ function applyDiscount(products, discount) {
 console.log(getProductsByCategory(sampleProducts, 'Electronics')); // cetak produk dalam kategori 'Electronics'
 console.log(calculateTotalPrice(sampleProducts)); // cetak total harga semua produk
 console.log(applyDiscount(sampleProducts, 10)); // cetak produk dengan diskon 10%
-console.log(findProductById(sampleProducts, 3)); // Should return the product with id 3
+console.log(findProductById(sampleProducts, 3)); // cetak produk dengan ID 3
