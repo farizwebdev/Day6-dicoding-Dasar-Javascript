@@ -12,8 +12,11 @@ import { API, sampleErrorData, sampleSuccessData } from './support.mjs';
  */
 function processData(data) {
   // kode di bawah hanya untuk melihat nilai data. Silakan hapus untuk menjawab kuis.
-  // return Promise.resolve(data);
-  
+  const promises = data.map(item =>
+    API.fetch(item.delay, item.simulateError)
+  );
+
+  return Promise.all(promises);
 }
 
 processData(sampleErrorData).then(console.log).catch(console.log); // Throw exception: Error from delay 50
