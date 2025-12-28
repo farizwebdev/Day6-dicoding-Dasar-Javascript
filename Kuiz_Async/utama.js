@@ -1,4 +1,4 @@
-import { API, sampleErrorData, sampleSuccessData } from './support.mjs';
+import { API, sampleErrorData, sampleSuccessData } from './support.js';
 
 /**
  * TODO:
